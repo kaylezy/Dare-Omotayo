@@ -1,5 +1,5 @@
 import React from "react";
-import profilePic from "../../assets/Dare.png";
+import profilePic from "../../assets/dare.png";
 import { AiFillGithub } from "react-icons/ai";
 import { FaFacebook, FaTwitter } from "react-icons/fa";
 import { LiaLinkedin } from "react-icons/lia";
