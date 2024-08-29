@@ -23,13 +23,13 @@ function AboutMe() {
   }
   return (
     <section id="about" className=" bg-slate-800">
-      <div className="lg:px-24 px-10 py-20 text-center gap-5 lg-text-start flex lg:flex-row flex-col-reverse justify-between lg:gap-28 items-center">
+      <div className="lg:px-24 px-10 lg:pb-20 py-20 text-center gap-5 lg-text-start flex lg:flex-row flex-col-reverse justify-between lg:gap-28 items-center">
         <img
           src={profilePic}
           alt="dare omotayo"
           className="rounded-t-full object-cover"
-          width={290}
-          height={290}
+          width={450}
+          height={400}
         />
         <div className="h-full lg:py-10 flex flex-col justify-center lg:items-start items-center text-white">
           <h1 className="text-[50px] font-bold mb-8 leading-normal ">
@@ -37,6 +37,20 @@ function AboutMe() {
               ABOUT ME
             </span>
           </h1>
+          <p className="font-bold text-left  mb-8 leading-normal ">
+            Dare Omotayo is a Backend Engineer with a passion for building and
+            scaling web applications. He is proficient in Node.js, Express, and
+            MongoDB. Dare is also a tech enthusiast who loves to learn new
+            technologies and frameworks. He is currently learning React.js and
+            GraphQL to become a Fullstack Developer.
+          </p>
+          <p className="font-bold text-left  mb-8 leading-normal ">
+            Dare Omotayo is a Backend Engineer with a passion for building and
+            scaling web applications. He is proficient in Node.js, Express, and
+            MongoDB. Dare is also a tech enthusiast who loves to learn new
+            technologies and frameworks. He is currently learning React.js and
+            GraphQL to become a Fullstack Developer.
+          </p>
           <p className="font-bold text-left  mb-8 leading-normal ">
             Dare Omotayo is a Backend Engineer with a passion for building and
             scaling web applications. He is proficient in Node.js, Express, and

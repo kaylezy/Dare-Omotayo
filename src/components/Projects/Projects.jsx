@@ -37,7 +37,7 @@ const projects = [
 
 const Projects = () => {
   return (
-    <div className="bg-black text-white py-20" id="projects">
+    <div className="bg-slate-900 text-white py-20" id="projects">
       <div className="container mx-auto px-8 md:px-16 lg:px-24">
         <h1 className="text-[50px] font-bold mb-8 leading-normal text-center">
           <span className="text-transparent bg-clip-text font-bold bg-gradient-to-r from-blue-400 to-purple-500from-green-500 to-pink-400">
