@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.glow {
+  animation: glow 1s infinite;
+  transition: all 0.3s ease-in-out;
+}
+
+.glow:hover {
+  animation: none;
+  box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.5);
+}
+
+.b-glow {
+  box-shadow: 0 0 10px 5px rgba(206, 71, 193);
+}
