@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import profilePic from "../../assets/Dare.png";
+import profilePic from "../../assets/dare.png";
 import { FiArrowDownCircle } from "react-icons/fi";
 import Button from "../reusable/Button";
 import HireMeModal from "../HireMeModal/HireMeModal";
